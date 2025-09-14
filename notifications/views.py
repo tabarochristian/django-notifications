@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 ''' Django Notifications example views '''
-from distutils.version import \
-    StrictVersion  # pylint: disable=no-name-in-module,import-error
+# from distutils.version import \
+#     StrictVersion  # pylint: disable=no-name-in-module,import-error
+
+from packaging.version import \
+    Version as StrictVersion
 
 from django import get_version
 from django.conf import settings
